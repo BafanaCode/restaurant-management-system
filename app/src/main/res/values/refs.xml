@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="reservation_card_bg" />
+    <drawable name="edit_text_background" />
+    <drawable name="restaurant_logo" />
+    <drawable name="white" />
+</resources>

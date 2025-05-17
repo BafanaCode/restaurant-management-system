@@ -1,0 +1,45 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RestaurantRMS"
+        tools:targetApi="31">
+
+        <!-- Start the app at LoginActivity -->
+        <activity android:name=".LoginActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Other screens -->
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ChefOrderActivity" />
+        <activity android:name=".WaiterOrderActivity" />
+        <activity android:name=".CustomerReservationActivity" />
+        <activity android:name=".ManagerInventoryActivity" />
+        <activity android:name=".ManagerReservationsActivity" />
+        <activity android:name=".CustomerViewReservationsActivity" />
+        <activity android:name=".WaiterViewReservationsActivity" />
+        <activity android:name=".OrderStatusActivity" />
+        <activity android:name=".ManagerMenuActivity"/>
+        <activity android:name=".CustomerMenuActivity"/>
+        <activity android:name=".CustomerFeedbackActivity" />
+        <activity android:name=".ManagerFeedbackActivity"/>
+        <activity android:name=".ManagerDashboardActivity" />
+        <activity android:name=".WaiterAssignedTablesActivity" />
+        <activity android:name=".ManagerAssignRolesActivity" />
+        <activity android:name=".ManagerAssignTablesActivity" />
+
+        <activity android:name=".MainActivity" android:exported="true" />
+
+    </application>
+</manifest>

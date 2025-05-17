@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "827544236824",
+    "project_id": "restaurantrms",
+    "storage_bucket": "restaurantrms.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827544236824:android:5d5279ed16e60e8bcfa46d",
+        "android_client_info": {
+          "package_name": "com.example.restaurantrms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHPcI1D-pICC6-QQdmz-0RCQsVJduMCLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

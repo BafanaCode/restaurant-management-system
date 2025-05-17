@@ -1,0 +1,11 @@
+<resources>
+    <color name="primary">#8B0000</color> <!-- Deep Red -->
+    <color name="accent">#FFCC00</color> <!-- Gold/Yellow -->
+    <color name="background">#0D0C0C</color> <!-- Light Cream -->
+    <color name="textPrimary">#333333</color> <!-- Dark Gray -->
+    <color name="errorRed">#D32F2F</color> <!-- Alert/Error -->
+    <color name="white">#FFFFFF</color>
+    <color name="error" />
+    <color name="black" />
+    <color name="divider" />
+</resources>

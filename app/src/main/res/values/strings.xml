@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RestaurantRMS</string>
+
+    <string-array name="user_roles">
+        <item>Customer</item>
+        <item>Waiter</item>
+        <item>Chef</item>
+        <item>Manager</item>
+    </string-array>
+
+</resources>

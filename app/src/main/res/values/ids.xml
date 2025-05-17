@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="loginButton" type="id" />
+    <item name="goToRegister" type="id" />
+    <item name="userGreeting" type="id" />
+    <item name="goToOrders" type="id" />
+    <item name="goToReservations" type="id" />
+    <item name="goToInventory" type="id" />
+    <item name="goToChefOrders" type="id" />
+    <item name="logoutButton" type="id" />
+    <item name="itemName" type="id" />
+    <item name="itemQty" type="id" />
+    <item name="itemNote" type="id" />
+    <item name="itemNameInput" type="id" />
+    <item name="itemQtyInput" type="id" />
+    <item name="addInventoryBtn" type="id" />
+    <item name="confirmReservationButton" type="id" />
+    <item name="orderStatusInfo" type="id" />
+    <item name="markAsServedButton" type="id" />
+    <item name="menuItemName" type="id" />
+    <item name="menuItemDesc" type="id" />
+    <item name="menuItemPrice" type="id" />
+    <item name="menuItemStatus" type="id" />
+    <item name="deleteButton" type="id" />
+    <item name="ratingBar" type="id" />
+    <item name="reservationsLayout" type="id" />
+    <item name="assignedTablesLayout" type="id" />
+    <item name="waiterReservationLayout" type="id" />
+    <item name="cancelButton" type="id" />
+    <item name="assignRolesTitle" type="id" />
+    <item name="saveRolesButton" type="id" />
+    <item name="userListRecyclerView" type="id" />
+    <item name="assignRolesSubtitle" type="id" />
+</resources>

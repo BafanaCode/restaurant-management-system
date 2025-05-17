@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:background="@drawable/background2">
+
+    <TextView
+        android:id="@+id/userGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading..."
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="24dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/goToOrders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📋 Place Order"
+        android:visibility="gone"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#FF5722" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/goToReservations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📅 Make a Reservation"
+        android:visibility="gone"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="12dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#FF5722" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/viewOrderStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📦 View My Orders"
+        android:visibility="gone"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#FF5722" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/viewReservationsManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📅 View Reservations"
+        android:visibility="gone"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#FF5722" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/viewAssignedTables"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🪑 My Assigned Tables"
+        android:visibility="gone"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FF5722"
+        android:textColor="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/assignRolesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="👤 Assign Roles"
+        android:visibility="gone"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FF5722"
+        android:textColor="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/assignTablesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🪑 Assign Tables"
+        android:visibility="gone"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#FF5722" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/goToChefOrders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="👨‍🍳 View Incoming Orders "
+        android:visibility="gone"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FF5722"
+        android:textColor="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/viewCustomerReservations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📅 View My Reservations"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#FF5722" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/viewAllReservationsWaiter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📅 View All Reservations"
+        android:visibility="gone"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#FF5722" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/browseMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🍽️ Browse Menu"
+        android:visibility="gone"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FF5722"
+        android:textColor="@android:color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/goToFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📝 Submit Feedback"
+        android:visibility="gone"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FF5722"
+        android:textColor="@android:color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/manageMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📋 Manage Menu "
+        android:visibility="gone"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FF5722"
+        android:textColor="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/viewFeedbacksManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📋 View Feedbacks "
+        android:visibility="gone"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#FF5722" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/goToDashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📈 View Manager Dashboard"
+        android:visibility="gone"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="12dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#FF5722" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/goToInventory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📦 Inventory Management"
+        android:visibility="gone"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FF5722"
+        android:textColor="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🚪 Logout"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="24dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#D32F2F" />
+</LinearLayout>
